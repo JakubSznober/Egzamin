@@ -1,0 +1,49 @@
+*{
+    font-family: Georgia;
+}
+
+header, footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 7px;
+}
+
+#ciasteczka{ 
+    background: #A1887F;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+#lewy{
+    background: #D7CCC8;
+    width: 35%;
+    height: 550px; 
+    float: left;
+}
+
+#prawy{
+    background: #D7CCC8;
+    width: 65%;
+    height: 550px;
+    float: left;
+}
+
+
+ul, a, ol {
+    color: indigo;
+}
+
+
+img {
+    height: 240px;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+
+img:hover {
+    box-shadow: 0 0 10px 2px indigo;
+}
